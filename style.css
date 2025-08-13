@@ -77,3 +77,6 @@ p{
 .button:hover{
     opacity: 0.7;
 }
+.button:active{
+    transform: scaleX(0.95);
+}
