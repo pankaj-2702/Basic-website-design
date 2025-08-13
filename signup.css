@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #8ecae6;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cant{
+    height: 80vmin;
+    width: 120vmin;
+    /* border: 1px solid rgba(255,255,255,0.4); */
+    display: flex;
+    background-color: #fff;
+    /* border-radius: 20px; */
+    box-shadow: 8px 8px 30px #219ebc;
+  
+}
+.login{
+    background-color: #fff;
+    height: 80vmin;
+    width: 45%;
+    border: 1px solid rgba(255,255,255,0.4);
+    z-index: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  align-items: center;
+
+
+}
+.sign{
+    background-color: #219ebc;
+    height: 616.8px;
+    width: 55%;
+    /* border-radius: 20px; */
+    /* border: 1px solid rgba(255,255,255,0.4); */
+    clip-path:polygon(20% 0%, 100% 0%, 100% 100%,0% 100%);
+      display: flex;
+   justify-content: center;
+   flex-direction: column;
+  align-items: center;
+}
+.boxi{
+   /* border: 1px solid black; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 300px;
+   padding: 3rem 2rem;
+   /* z-index: -1; */
+
+}
+input{
+    height: 40px;
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.2);
+}
+button{
+    margin-top: 3rem;
+    width: 120px;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    background-color: #fff;
+    font-size: larger;
+    font-weight: bold;
+
+}
+button:active{
+    transform: scale(0.95);
+    box-shadow: -5px -5px 20px rgba(0,0,0,0.2);
+}
+h1{
+   margin-bottom: 4rem;
+}
+p{
+    font-size: large;
+    margin-top: 4rem;
+}
+#colorwala{
+    color: #fff;
+}
+
+.page1{
+    /* border: solid black; */
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.page2{
+    /* border: solid black; */
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.uppertext{
+    font-size: 70px;
+    color: #219ebc;
+   
+}
+.colorw{
+    color: #fff;
+    font-size: 50px;
+}
+.lo{
+    color: blue;
+    margin-left: 5px;
+}
+.have{
+    display: flex;
+}
+.sos{
+    color: blue;
+    margin-left: 5px;
+}
