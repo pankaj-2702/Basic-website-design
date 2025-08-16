@@ -1,5 +1,5 @@
 body{
-  height: 100vmin;
+  min-height: 100vh;
    background: url(cont2.jpg) center/cover no-repeat;
    /* background-color: pink; */
    font-family: sans-serif;
