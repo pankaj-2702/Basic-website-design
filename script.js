@@ -26,4 +26,26 @@
         page2.style.display = "flex";
         page1.style.display = "none";
     });
+    
+    let toogle= document.querySelectorAll("#toggle");
+    let password= document.querySelectorAll(".password");
 
+    toogle[0].addEventListener("click",()=>{
+      if(password[0].type=="password"){
+        password[0].type="text";
+        toogle[0].textContent="🙈";
+      }else{
+        password[0].type="password";
+        toogle[0].textContent="👁️";
+      }
+    })
+      toogle[1].addEventListener("click",()=>{
+      if(password[1].type=="password"){
+        password[1].type="text";
+        toogle[1].textContent="🙈";
+      }else{
+        password[1].type="password";
+        toogle[1].textContent="👁️";
+      }
+    })
+    

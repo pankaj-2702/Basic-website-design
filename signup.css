@@ -149,3 +149,8 @@ p{
 .pop:hover{
     opacity: 0.8;
 }
+
+span{
+    margin-top: 10px;
+   font-size: x-large;
+}
