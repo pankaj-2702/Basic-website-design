@@ -92,7 +92,7 @@ form{
      align-items: center;
      border-radius: 7px;
 }
-input{
+.input{
     margin-top: 2rem;
     width: 70%;
     height: 2rem;
