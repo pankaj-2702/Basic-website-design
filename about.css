@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+}
+img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.ima{
+   
+    width: 350px;
+    height: 450px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+.color-box{
+    position: absolute;
+    /* border: 2px solid black; */
+    min-height: 50vh;
+    width: 90%;
+    background-color: #8296B2;
+    color: white;
+    text-align: center;
+   font-family: 'Playfair Display', serif;
+    font-size: larger;
+    
+
+}
+h1{
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+font-weight: 600;
+font-size: 2rem;
+letter-spacing: 1px;
+
+}
+.allbox{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin-top: 30vh;
+    margin-left: 10vh;
+}
+h2{
+      margin-top: 2rem;
+  font-weight: 600; /* better than "bold" for Poppins */
+  font-size: 2rem; /* more control than xx-large */
+  font-family: 'Poppins', sans-serif;
+}
+.para{
+    margin-top: 0.5rem;
+      font-family: 'Montserrat', sans-serif;
+  font-weight: 300;   /* thin & elegant */
+  font-size: 0.9rem;  /* smaller than h2 */
+  letter-spacing: 1px; /* gives airy aesthetic feel */
+  color: #555; 
+}
+#quote{
+    margin-top: 5px;
+}
+.button{
+     margin-top: 85vh;
+     margin-left: 46%;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    background-color: #8296B2;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    position: absolute;
+}
+.button:active{
+    transform: scale(0.9);
+     box-shadow: -5px -5px 5px rgba(0,0,0,0.2);
+}
