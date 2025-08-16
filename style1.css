@@ -51,3 +51,6 @@ a{
 .button:active{
   transform: scale(0.95);
 }
+span{
+  margin-top: 5px;
+}
