@@ -9,10 +9,9 @@ Explore the live version here:
 
 ##  Features
 
-- **Responsive & Modern Layout** — Minimalist design with clear navigation and engaging layout.
 - **Single-Page Navigation** — Quick scrolling or linking to core sections: Home, About, Services, Contact.
 - **Call-to-Action Button** — A prominent **Get Started** button to engage users.
 - **Lightweight** — Pure HTML and CSS (no JavaScript frameworks or libraries) for fast loading.
 
-##  File Structure Overview
+
 
