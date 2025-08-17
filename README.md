@@ -5,7 +5,7 @@ A sleek, static **"modern" home page** built with HTML and CSS, showcasing a cle
 ##  Live Demo
 
 Explore the live version here:  
-**[pankaj-2702.github.io/Home-Page](https://pankaj-2702.github.io/Home-Page/)**
+**[pankaj-2702.github.io/Home-Page](https://pankaj-2702.github.io/Basic-website-design/)**
 
 ##  Features
 
